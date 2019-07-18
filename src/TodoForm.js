@@ -15,7 +15,7 @@ function TodoForm({ addTodo}) {
         <TextField
           value={value}
           onChange={handleChange}
-          require="required"
+          required="required"
         />
       </form>
     </Paper>
