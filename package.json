@@ -1,7 +1,11 @@
 {
-  "name": "my-app",
+  "name": "todo-app-with-hooks",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.13.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.2.1",
     "@material-ui/icons": "^4.2.1",
