@@ -1,6 +1,5 @@
 import React from 'react';
-import TextField from "@material-ui/core/TextField";
-import Paper from "@material-ui/core/Paper";
+import { TextField, Paper } from "@material-ui/core";
 import useInputState from './Hooks/UseInputState';
 
 function TodoForm({ addTodo}) {

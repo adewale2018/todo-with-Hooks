@@ -2,11 +2,7 @@ import React, { useEffect } from 'react';
 import TodoList from './TodoList';
 import TodoForm from './TodoForm';
 import useTodoState from './Hooks/useTodoState';
-import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Grid from "@material-ui/core/Grid";
+import { Typography, Paper, AppBar, Toolbar, Grid } from "@material-ui/core";
 
 function TodoApp() {
   const initialTodos = JSON.parse(window.localStorage.getItem('todos') || "[]");
